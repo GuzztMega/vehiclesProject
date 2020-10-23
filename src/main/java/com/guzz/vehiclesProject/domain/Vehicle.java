@@ -1,4 +1,4 @@
-package com.guzz.domain;
+package com.guzz.vehiclesProject.domain;
 
 import javax.persistence.*;
 

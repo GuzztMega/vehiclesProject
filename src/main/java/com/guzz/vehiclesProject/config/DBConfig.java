@@ -1,4 +1,4 @@
-package com.guzz.config;
+package com.guzz.vehiclesProject.config;
 
 import java.text.ParseException;
 
@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.guzz.services.DBService;
+import com.guzz.vehiclesProject.services.DBService;
 
 
 

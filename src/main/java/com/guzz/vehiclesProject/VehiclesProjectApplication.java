@@ -9,7 +9,7 @@ public class VehiclesProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(VehiclesProjectApplication.class, args);
 		
-		System.out.println("Hello world");
+		System.out.println("SPRINGBOOT IS UP AND RUNNING...");
 	}
 
 }
