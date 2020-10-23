@@ -1,2 +1,4 @@
 # vehiclesProject
- Projeto de cadastro de veículos. Banco
+Vehicle registration project. 
+
+Springboot Maven Project / Hibernate JPA / PostgreSQL Database / Tomcat WebServer / Eclipse IDE
