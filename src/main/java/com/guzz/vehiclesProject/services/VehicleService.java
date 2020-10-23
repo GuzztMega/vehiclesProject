@@ -8,6 +8,8 @@ import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
 import com.guzz.vehiclesProject.domain.Vehicle;
+import com.guzz.vehiclesProject.dto.VehicleDTO;
+import com.guzz.vehiclesProject.dto.VehicleNewDTO;
 import com.guzz.vehiclesProject.repositories.VehicleRepository;
 import com.guzz.vehiclesProject.services.exceptions.ObjectNotFoundException;
 
@@ -53,6 +55,13 @@ public class VehicleService {
         newObj.setAssembler(obj.getAssembler());
         newObj.setYear(obj.getYear());
     }
+    
+    public Vehicle fromNewDTO(VehicleNewDTO objDto){
+        return new Vehicle(null, objDto.getName(), objDto.getAssembler(), objDto.getYear());
+    }
 
+    public VehicleDTO fromDTO(Vehicle obj){
+        return new VehicleDTO(obj);
+    }
 
 }
